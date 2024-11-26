@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strict": true,
+    "types": ["@typescript-to-lua/language-extensions", "node"],
+    "sourceMap": true
+  },
+  "tstl": {
+    "luaLibImport": "require-minimal",
+    "luaTarget": "JIT",
+    "noHeader": true,
+    "noImplicitSelf": true,
+    "noImplicitGlobalVariables": true,
+    "luaPlugins": [{ "name": "./plugins/simpleImport.ts" }]
+  },
+  "exclude": ["./plugins"],
+  "include": ["./**/*"]
+}

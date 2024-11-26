@@ -1,0 +1,9 @@
+{
+  "name": "FactoChem",
+  "version": "1.0.1",
+  "title": "FactoChem",
+  "author": "THAUI",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1", "stdlib >= 1.4.8", "flib >= 0.12.7"],
+  "description": "FactoChem is simply SpaceChem in Factorio."
+}
